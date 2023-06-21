@@ -5,30 +5,30 @@
     margin: 0;
 }
 
-/* References element (in this case everything in body) */
+/* Sets the background color of the whole webpage */
 body {
     background-color: #d9dcd6;
 }
 
-/* . References class */
-.header {
+/* Changed from unnecessary class reference */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* Updated div to nav so it matches html */
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,25 +36,28 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes default link text format */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Move to correct place */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* Changed to element since class identifier was not relevant to pic */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -63,20 +66,32 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* Moved so is above content further in main */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Removed ".float-left {float: left;margin-right: 25px;}" and put content in tag below */
+.search-engine-optimization img {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -138,14 +153,6 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -165,9 +172,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
+
 
 .online-reputation-management img {
     max-height: 200px;
