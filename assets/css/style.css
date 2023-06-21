@@ -1,13 +1,16 @@
+/* * References everything, but can be overridden */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* References element (in this case everything in body) */
 body {
     background-color: #d9dcd6;
 }
 
+/* . References class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
