@@ -13,7 +13,7 @@ N/A
 
 ## Usage
 
-To use the Horiseon page, load webpage and view each section. Open the console panel for Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). 
+To use the Horiseon page, load webpage and view each section. When accessibility settings are enabled, the images and icons will have alt text.
 
 ![Screenshot of Webpage with console panel open](assets/for_README/screenshot_of_page.PNG)
 
