@@ -55,7 +55,7 @@ p {
     font-size: 16px;
 }
 
-/* Changed to element since class identifier was not relevant to pic */
+/* Changed to element since class identifier was not relevant to picture */
 figure {
     height: 800px;
     width: 100%;
